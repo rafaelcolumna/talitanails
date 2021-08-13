@@ -27,6 +27,13 @@ export const SidebarData = [
         path:'/contact',
         icon: <FaIcons.FaEnvelopeOpenText/>,
         cName: 'nav-text'
+    },
+    {
+        title:'My Appointments',
+        path:'appointment',
+        icon:<IoIcons.IoIosPaper/>,
+        cName: 'nav-text'
     }
+
 
 ]

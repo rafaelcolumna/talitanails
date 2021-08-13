@@ -13,7 +13,7 @@ function Sidebar() {
     const showSideBar =() => setSideBar(!sidebar)
     return (
         <>
-        <IconContext.Provider value={{color:'#0504aa'}}>
+        <IconContext.Provider value={{color:'white'}}>
             <div className="sidebar">
                 <Link to="#" className='menu-bars'>
                     <FaIcons.FaBars onClick={showSideBar}/>
