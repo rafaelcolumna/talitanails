@@ -5,6 +5,11 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  backgroundImage: `url("https://i.ibb.co/ZdYbKqG/Photo-from-Raf-Col.jpg")`;
+  backgroundPosition:'center';
+  backgroundSize:'100%',;
+  backgroundRepeat:'no-repeat';
+  alignSelf: 'center';
 }
 
 code {

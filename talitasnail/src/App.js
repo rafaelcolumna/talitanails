@@ -20,7 +20,7 @@ function App(){
           <Route path= '/about' component={about}/>
           <Route path= '/nailblog' component={nailblog}/>
           <Route path= '/contact' component={contact}/>
-          <Route path= 'appointment' component={appointment}/>
+          <Route path= '/appointment' component={appointment}/>
           
         </Switch>
         {/* <Footer />  */}

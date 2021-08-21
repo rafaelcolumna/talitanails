@@ -1,7 +1,7 @@
 import React from 'react'
 import '../App.css';
 
-function home() {
+function appointment() {
     
     return (
      <>
@@ -11,7 +11,6 @@ function home() {
             backgroundSize:'100%',
             backgroundRepeat:'no-repeat',
             alignSelf: 'center',
-            size: '500px',
         }}>
             <br /> <br /> <br /> <br />
             <div className='about' style={{
@@ -20,9 +19,15 @@ function home() {
                 <br /> <br /> <br /> <br />
                 <img 
                 src="https://i.ibb.co/bmxGhHS/Photo-from-Raf-Col-5-removebg-preview.png"
-                height='140' width='180'> 
+                height='200' width='250'> 
                  </img>
                  <br /> <br /> <br /> <br />
+                 <h2 style={{
+                    fontFamily:'cursive',
+                    fontSize:'70px',
+                    color:'red',
+                    }}>Feature Not Available.<br /> Don't Worry You Will Soon Be Able <br />To Schedule Your Appoinments.</h2>
+                    <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br />
             </div> 
          </div>   
          <div>
@@ -32,4 +37,4 @@ function home() {
     )
 }
 
-export default home; 
+export default appointment; 

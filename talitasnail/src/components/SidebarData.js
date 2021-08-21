@@ -30,7 +30,7 @@ export const SidebarData = [
     },
     {
         title:'My Appointments',
-        path:'appointment',
+        path:'/appointment',
         icon:<IoIcons.IoIosPaper/>,
         cName: 'nav-text'
     }
